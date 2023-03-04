@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/IrynaBuchma/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/IrynaBuchma/goit-js-hw-08#readme"
+  "homepage": "https://github.com/IrynaBuchma/goit-js-hw-08#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "simple-lightbox": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0"
+  }
 }
